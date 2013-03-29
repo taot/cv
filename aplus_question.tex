@@ -1,0 +1,73 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[cm]{fullpage}
+\input apl
+
+\title{Question}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{What is the function of the following expression?}
+
+\begin{verbatim}
+((x⍳x)=⍳#x)/x
+\end{verbatim}
+
+\section{Operation Definitions}
+
+Assume we have the following five operations defined. The data can be
+either an integer or a vector (array) of integers.
+
+\subsection{Find: y⍳x}
+
+x and y are two vectors. The result is a vector of same length as
+ x. The i'th element of result is index of the first item of y that is
+ identical to i'th element of x; if a match is not found, the result
+ item is the length of y. For example,
+
+\begin{verbatim}
+>   2 3 ⍳ 1 2 3 4 5
+2 0 1 2 2
+\end{verbatim}
+
+\subsection{Interval: ⍳x}
+
+Takes an integer and returns a vector of integers from 0 to
+ x-1. For example,
+
+\begin{verbatim}
+>   ⍳5
+0 1 2 3 4
+\end{verbatim}
+
+\subsection{Count: \#x}
+
+Takes a vector and returns the number of items of x. For example,
+\begin{verbatim}
+>   #1 2
+3 4 4
+\end{verbatim}
+
+\subsection{Equal to: x=y}
+
+x and y are two vectors of same length. Returns a vector whose i'th
+ element is 1 if x[i] (means i'th element in x) and y[i] are equal,
+ otherwise 0. For example,
+\begin{verbatim}
+>   1 2 3 4 5 = 1 0 3 4 6
+1 0 1 1 0
+\end{verbatim}
+
+\subsection{Replicate: y/x}
+
+x and y are two vectors of same length. The result is a vector, whose
+items are taken from the x. Each item in x (x[i]) is replicated y[i]
+times in the result. For example,
+\begin{verbatim}
+>   1 2 3 / 4 5 6
+4 5 5 6 6 6
+\end{verbatim}
+
+\end{document}
