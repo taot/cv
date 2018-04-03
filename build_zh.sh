@@ -7,3 +7,4 @@ prebuild
 
 cd ${TARGET_DIR}
 xelatex ../resume_zh.tex
+cp ./resume_zh.pdf ../pdf/

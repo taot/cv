@@ -6,3 +6,4 @@ DIR=$(dirname $0)
 prebuild
 cd ${TARGET_DIR}
 pdflatex ../resume_en.tex
+cp ./resume_en.pdf ../pdf/

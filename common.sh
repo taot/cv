@@ -5,5 +5,5 @@ clean() {
 }
 
 prebuild() {
-    mkdir "${TARGET_DIR}"
+    mkdir -p "${TARGET_DIR}"
 }
