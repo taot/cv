@@ -78,6 +78,33 @@
 	\tableentry{Experience}{12 years}{spaceafter}
 \end{supertabular}
 
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+% This section is laid out using a table. A \tableentry command adds lines with the following parameters:
+
+%\tableentry{Heading}{Content}{spaceafter}
+% All 3 parameters must be supplied but any can be empty if you don't need them
+% A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings, leave it empty for no extra space
+
+%------------------------------------------------
+
+\begin{supertabular}{r l} % Start a table with two columns, the table will ensure everything is aligned
+
+	\tableentry{}{Java, C/C++, Javascript, Python, PHP}{spaceafter}
+
+	\tableentry{}{MySQL, Elastic Search, MongoDB}{spaceafter}
+	\tableentry{}{Spring Framework, Laravel, VueJS}{spaceafter}
+
+\end{supertabular}
+
+\medskip % Extra whitespace before the next section
+
+
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE
 %----------------------------------------------------------------------------------------
@@ -98,11 +125,16 @@
 %------------------------------------------------
 
 \jobentry
-	{May 2021 -- Now} % Duration
+	{May 2021 -- Present} % Duration
 	{} % FT/PT (full time or part time)
 	{MEhome Realty} % Employer
 	{Senior Software Engineer} % Job title
-	{I am working on the development and maintainence of the MEhome website. The work includes importing  and cleaning data from several data sources, writing frontend web pages and backend services. I designed the new listing map and search functionality based on Elastic Search, and I am pushing through the refactor, which improves the performance and user experience.} % Description
+	{Working on the development and maintainence of the MEhome website.} % Description
+	\begin{itemize}
+        \item Import realty listing data from various data sources and do the data cleaning.
+        \item Write frontend web pages / mobile app and backend services with PHP and VueJS.
+        \item Designed the new data system based on Elastic Search, and pushed through the refactor of realty listing map and search functionality, which improved the performance and user experience.
+    \end{itemize}
 
 %------------------------------------------------
 
@@ -111,27 +143,14 @@
 	{} % FT/PT (full time or part time)
 	{Digitech, Inc.} % Employer
 	{Software Team Lead} % Job title
-	{As the first software engineer in the company, I built the software development team from scratch. I led the team, responsible for all aspects of software development and tutoring junior engineers. We implemented several applications based on the company's requirements.} % Description
+	{Built up the software development team. Responsible for all aspects of software development and mentored junior engineers. Lead the development of several software projects, including: } % Description
+	\begin{itemize}
+        \item A messaging system for a Beidou antenna experimenting platform and a few tools around the system.
+        \item A UAV position monitoring system with Beidou module, Java/Spring, MySQL and Redis.
+        \item A DSP cluster management system with Java/Spring, MySQL and Etcd.
+    \end{itemize}
 
 %------------------------------------------------
-
-\jobentry
-	{April 2013 -- April 2016} % Duration
-	{} % FT/PT (full time or part time)
-	{DataYes, Inc.} % Employer
-	{Senior Software Engineer} % Job title
-	{I was responsible for the architecture design of the Portfolio Management System, and wrote most part of the prototype of the application. Later on, as the team grew, while still writing functionalities of the software, I also took more responsibility in management, which includes designing features, making development plans, communicating and coordinating with other teams.} % Description
-
-%------------------------------------------------
-
-\jobentry
-	{June 2012 -- April 2013} % Duration
-	{} % FT/PT (full time or part time)
-	{i-MD.com} % Employer
-	{Senior Software Engineer} % Job title
-	{I built the user data tracking system, and analyzed the user data. Also I designed and implemented the new user system, and migrated the website from the old one. Besides, I also took some responsibilities of maintaining the website and IT devices.} % Description
-
-%----------------------------------------------------------------------------------------
 
 \switchcolumn % Switch to the second (right) column
 
@@ -158,11 +177,29 @@
 %----------------------------------------------------------------------------------------
 
 \jobentry
+	{April 2013 -- April 2016} % Duration
+	{} % FT/PT (full time or part time)
+	{DataYes, Inc.} % Employer
+	{Senior Software Engineer} % Job title
+	{Responsible for the architecture design and implementation of the Portfolio Management System. Also took responsibilities in management, which includes designing features, making development plans, communicating and coordinating with other teams.}
+
+%------------------------------------------------
+
+\jobentry
+	{June 2012 -- April 2013} % Duration
+	{} % FT/PT (full time or part time)
+	{i-MD.com} % Employer
+	{Software Engineer} % Job title
+	{Designed and implemented the new user system, and migrated the website from the old one. Built the user data tracking system, and analyzed the user data.} % Description
+
+%----------------------------------------------------------------------------------------
+
+\jobentry
 	{May 2011 -- June 2012} % Duration
 	{} % FT/PT (full time or part time)
 	{Morgan Stanley} % Employer
 	{Software Engineer, Contract} % Job title
-	{As a contract, I worked in Morgan Stanley IT department. I was responsible for designing, implementing and maintaining the Interest Rate Derivative yield curve services. We provided data and support to traders, and other teams in IT department.} % Description
+	{Worked in Morgan Stanley IT department as a contractor. Responsible for designing, implementing and maintaining the Interest Rate Derivative yield curve services. Provided data and support to traders, and other teams in IT department.} % Description
 
 %------------------------------------------------
 
@@ -171,7 +208,7 @@
 	{} % FT/PT (full time or part time)
 	{Oracle} % Employer
 	{Application Developer} % Job title
-	{I was working on the development of P6 API and P6 Web Services. I implemented the data exporter of the P6 API.} % Description
+	{Worked on the development of P6 API and P6 Web Services. Implemented the data exporter of the P6 API.} % Description
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
@@ -215,37 +252,6 @@
 	%------------------------------------------------
 
 \end{supertabular}
-
-%----------------------------------------------------------------------------------------
-%	SKILLS
-%----------------------------------------------------------------------------------------
-
-\section{Skills}
-
-% This section is laid out using a table. A \tableentry command adds lines with the following parameters:
-
-%\tableentry{Heading}{Content}{spaceafter}
-% All 3 parameters must be supplied but any can be empty if you don't need them
-% A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings, leave it empty for no extra space
-
-%------------------------------------------------
-
-\begin{supertabular}{r l} % Start a table with two columns, the table will ensure everything is aligned
-	
-	%------------------------------------------------
-	
-	\tableentry{Intermediate}{PHP, C/C++, Python}{}
-	\tableentry{}{Javascript, HTML, CSS}{spaceafter}
-	
-	%------------------------------------------------
-	
-	\tableentry{Expert}{Java, Linux, Git}{spaceafter}
-	
-	%------------------------------------------------
-	
-\end{supertabular}
-
-\medskip % Extra whitespace before the next section
 
 %----------------------------------------------------------------------------------------
 
