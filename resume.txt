@@ -1,0 +1,32 @@
+# MEhome Realty
+
+Working on the development and maintainence of the MEhome website which is deployed on AWS.
+
+• Import realty listing data from various data sources and do the data cleaning.
+• Write frontend web pages / mobile app and backend services with PHP/Laravel and VueJS.
+• Designed the new data system based on Elastic Search and Kafka, and made the transition plan. Pushing through the refactor of the data system, improving the performance and user experience.
+
+# Digitech, Inc
+
+Built up the software development team. Responsible for all aspects of software development and mentored junior engineers. Lead the development of several software projects, including:
+
+• A messaging system for a Beidou antenna experimenting platform and a few tools around the system.
+• A UAV position monitoring system with Beidou module, Java/Spring, MySQL and Redis.
+• AdistributedDSPclustermanagement systemwith Java/Spring, MySQL and Etcd.
+
+# Datayes
+
+Responsible for the architecture design and implementation of the Portfolio Management System in Java and related frameworks. Design features, make development plans, communicate and coordinate with other teams.
+
+# i-MD.com
+
+Designed and implemented the new user system, and migrated the website from the old one. Built the user data tracking system, and analyzed the user data.
+
+# Morgan Stanley
+
+Worked in Morgan Stanley IT department as a contractor. Responsible for designing, implementing and maintaining the Interest Rate Derivative yield curve services. Provided data and support to traders, and other teams in IT department.
+
+# Oracle
+
+Worked on the development of P6API and P6Web Services. Implemented the data exporter of the P6 API.
+
