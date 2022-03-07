@@ -4,7 +4,7 @@ Working on the development and maintainence of the MEhome website which is deplo
 
 • Import realty listing data from various data sources and do the data cleaning.
 • Write frontend web pages / mobile app and backend services with PHP/Laravel and VueJS.
-• Designed the new data system based on Elastic Search and Kafka, and made the transition plan. Pushing through the refactor of the data system, improving the performance and user experience.
+• Designed the new data system based on Elastic Search, and made the transition plan. Pushing through the refactor of the data system, improving the performance and user experience.
 
 # Digitech, Inc
 
@@ -12,11 +12,16 @@ Built up the software development team. Responsible for all aspects of software 
 
 • A messaging system for a Beidou antenna experimenting platform and a few tools around the system.
 • A UAV position monitoring system with Beidou module, Java/Spring, MySQL and Redis.
-• AdistributedDSPclustermanagement systemwith Java/Spring, MySQL and Etcd.
+• A distributed DSP cluster management system with Java/Spring, MySQL and Etcd.
 
 # Datayes
 
-Responsible for the architecture design and implementation of the Portfolio Management System in Java and related frameworks. Design features, make development plans, communicate and coordinate with other teams.
+Worked on the Product Management System which manages users' stock portfolios and provide other functions such as evaluation and attribution.
+
+• Designed and implemented the Portfolio Management System in Java, Spring, MySQL and related technologies.
+• Exposed APIs to users and other products in the company.
+• Communicate and coordinate with Product Manager and other teams.
+
 
 # i-MD.com
 
