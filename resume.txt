@@ -18,14 +18,14 @@ Built up the software development team. Responsible for all aspects of software 
 
 Worked on the Product Management System which manages users' stock portfolios and provide other functions such as evaluation and attribution.
 
-• Designed and implemented the Portfolio Management System in Java, Spring, MySQL and related technologies.
+• Designed and implemented the Portfolio Management System in Java, Scala, Spring, MySQL and related technologies.
 • Exposed APIs to users and other products in the company.
 • Communicate and coordinate with Product Manager and other teams.
 
 
 # i-MD.com
 
-Designed and implemented the new user system, and migrated the website from the old one. Built the user data tracking system, and analyzed the user data.
+Worked on the medical document download service implemented in Java/Scala and MongoDB. Designed and implemented the new user system, and migrated the website from the old one. Built the user data tracking system, and analyzed the user data.
 
 # Morgan Stanley
 
