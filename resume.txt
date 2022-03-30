@@ -2,8 +2,8 @@
 
 Working on the development and maintainence of the MEhome website which is deployed on AWS.
 
-• Import realty listing data from various data sources and do the data cleaning.
 • Write frontend web pages / mobile app and backend services with PHP/Laravel and VueJS.
+• Improve the user experience by optimizing code design, database queries and etc.
 • Designed the new data system based on Elastic Search, and made the transition plan. Pushing through the refactor of the data system, improving the performance and user experience.
 
 # Digitech, Inc
